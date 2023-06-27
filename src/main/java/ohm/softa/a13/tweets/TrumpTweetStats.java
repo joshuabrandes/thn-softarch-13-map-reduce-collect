@@ -15,7 +15,7 @@ public class TrumpTweetStats {
 
     public static Map<String, Long> calculateSourceAppStats(Stream<Tweet> tweetStream) {
         /* TODO group the tweets by the `sourceApp` they were created with and count how many it were per `sourceApp` */
-        throw new NotImplementedException("TrumpTweetStats.calculateSourceAppStats(...) not implemented yet.");
+		var tweets = tweetStream
     }
 
     public static Map<String, Set<Tweet>> calculateTweetsBySourceApp(Stream<Tweet> tweetStream) {
